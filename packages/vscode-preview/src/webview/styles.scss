@@ -224,4 +224,11 @@ body {
   font-size: var(--vscode-font-size, 13px);
 }
 
+// Fix for button padding asymmetry in Carbon components
+// Ensures consistent horizontal padding on both left and right sides
+.cds--btn {
+  padding-inline-start: var(--cds-layout-density-padding-inline-normal, 1rem);
+  padding-inline-end: var(--cds-layout-density-padding-inline-normal, 1rem);
+}
+
 // Made with Bob
