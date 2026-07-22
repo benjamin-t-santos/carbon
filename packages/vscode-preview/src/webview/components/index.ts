@@ -14,6 +14,7 @@ import { stories as dropdownStories } from './DropdownStories';
 import { stories as linkStories } from './LinkStories';
 import { stories as radioButtonStories } from './RadioButtonStories';
 import { stories as toggleStories } from './ToggleStories';
+import { stories as tooltipStories } from './TooltipStories';
 import type { ReactNode } from 'react';
 
 export interface Story {
@@ -63,6 +64,10 @@ export const componentRegistry: ComponentGroup[] = [
   {
     title: 'Toggle',
     stories: toggleStories,
+  },
+  {
+    title: 'Tooltip',
+    stories: tooltipStories,
   },
 ];
 
